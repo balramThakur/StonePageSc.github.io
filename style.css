@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Smooch+Sans:wght@100;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f5a5a;
+    /* display: flex;
+    justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.head{
+    width: 78vw;
+    height: 16vh;
+    margin: auto;
+    position: relative;
+    top: 29px;
+    background-color: #2f5a5a;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 11px;
+}
+
+.name{
+    width: 50px;
+    margin-left: 25px;
+    color: #e2ede4;
+}
+
+.score{
+    font-size: 41px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 61px;
+    align-items: center;
+}
+
+#num{
+    font-weight: 800;
+}
+
+#hands{
+    position: relative;
+    width: 663px;
+    height: 580px;
+    display: flex;
+    /* display: none; */
+    flex-wrap: wrap;
+    /* background: white; */
+    top: 92px;
+    margin: auto;
+    justify-content: space-around;
+    transition: all 0.25s;
+}
+
+.hands .spsc{
+    cursor: pointer;
+}
+
+.hands .spsc:hover{
+    transform:translate3d(0px,-10px,0px);
+}
+
+/* first page desgin ends */
+
+#result{
+    display: none;
+    justify-content: space-between;
+    margin-top: 131px;
+}
+
+.yourpick{
+    margin-left: 73px;
+}
+
+.computerpick{
+    margin-right: 71px;
+}
+
+#reffery{
+    font-size: 68px;
+    display: flex;
+    flex-direction: column;
+}
+
+#reffery #btn{
+    padding: 9px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
